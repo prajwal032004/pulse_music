@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Pulse Music adaptive icon foreground: frosted glass lens with the white pulse/play mark. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Glass lens -->
+    <path android:pathData="M54,54m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="30" android:startY="24"
+                android:endX="78" android:endY="84">
+                <item android:offset="0.0" android:color="#47FFFFFF" />
+                <item android:offset="1.0" android:color="#0FFFFFFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:pathData="M54,54m-29.5,0a29.5,29.5 0,1 1,59 0a29.5,29.5 0,1 1,-59 0"
+        android:strokeWidth="1"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:type="linear"
+                android:startX="30" android:startY="24"
+                android:endX="78" android:endY="84">
+                <item android:offset="0.0" android:color="#B3FFFFFF" />
+                <item android:offset="1.0" android:color="#1AFFFFFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Mark (24-unit design scaled into the safe zone) -->
+    <group
+        android:scaleX="1.9"
+        android:scaleY="1.9"
+        android:translateX="30.7"
+        android:translateY="31.2">
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M4.5,6.2C4.5,5.1 5.7,4.4 6.6,5L14.2,10.3C15,10.9 15,12.1 14.2,12.7L6.6,18C5.7,18.6 4.5,17.9 4.5,16.8Z" />
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M16.6,9a1,1 0,0 1,2 0v6a1,1 0,0 1,-2 0z" />
+        <path
+            android:fillColor="#D9FFFFFF"
+            android:pathData="M20,11a1,1 0,0 1,2 0v2a1,1 0,0 1,-2 0z" />
+    </group>
+</vector>

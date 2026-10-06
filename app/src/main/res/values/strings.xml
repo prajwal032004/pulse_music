@@ -1,0 +1,20 @@
+﻿<resources>
+    <string name="app_name">Pulse Music</string>
+    <string name="playback_channel_name">Now playing</string>
+    <string name="widget_now_playing_label">Pulse · Now Playing</string>
+    <string name="widget_dashboard_label">Pulse · Music Dashboard</string>
+    <string name="widget_now_playing_description">Artwork, progress and playback controls</string>
+    <string name="widget_dashboard_description">Current track, recent songs and playlist shortcuts</string>
+    <string name="widget_empty_title">Tap play to start</string>
+    <string name="widget_open_player">Open player</string>
+    <string name="widget_play">Play or pause</string>
+    <string name="widget_next">Next track</string>
+    <string name="widget_previous">Previous track</string>
+    <string name="widget_shuffle">Shuffle all</string>
+    <string name="widget_like">Like</string>
+    <string name="widget_recent">RECENTLY PLAYED</string>
+    <string name="widget_chip_liked">♥ Liked</string>
+    <string name="widget_chip_chill">Chill</string>
+    <string name="widget_chip_workout">Workout</string>
+    <string name="widget_chip_focus">Focus</string>
+</resources>
